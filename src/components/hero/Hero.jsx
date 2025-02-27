@@ -3,10 +3,9 @@ import image from "../../assets/my.jpg";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-20 py-12">
+    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-20 py-12 translate-y-[-50px]">
       <div className="container max-w-[1308px] mx-auto flex flex-col md:flex-row items-center gap-10 lg:gap-16">
         
-        {/* Matn qismi */}
         <div className="md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight">
             Hi, I'm <span className="text-blue-500">Javohir</span>
@@ -30,7 +29,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Rasm qismi */}
         <div className="md:w-1/2 flex justify-center">
           <img
             src={image}
