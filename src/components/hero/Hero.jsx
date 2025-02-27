@@ -3,7 +3,7 @@ import image from "../../assets/my.jpg";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-20 py-12 translate-y-[-50px]">
+    <section className="flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-20 py-[150px] translate-y-[-50px]">
       <div className="container max-w-[1308px] mx-auto flex flex-col md:flex-row items-center gap-10 lg:gap-16">
         
         <div className="md:w-1/2 text-center md:text-left">
